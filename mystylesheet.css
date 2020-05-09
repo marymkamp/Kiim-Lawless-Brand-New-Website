@@ -1,38 +1,18 @@
-main {
-	background-color: #40E0D0;
-        box-shadow: 5px 5px 3px 5px black;
-	max-width: 1000px;
-  	margin: auto;
-}
+/* Section Styling Elements*/
 
-body h2 {
+h2 {  
 
-   margin-left: 1.5em;
-
-}
-
-h1 {
-
-      align-content: center;
-      text-align: center;
-      padding: 10px 5px:
       font-family: helvetica;
-      font-weight: bold;
-      font-size: 50px;
-      word-break: break-all;
-      margin-top: 0px;
-      margin-bottom: 1px;
-
-
-h2 {  font-family: helvetica;
       font-weight: bold;
       font-size: 30px;
       margin-top: 0px;
       margin-bottom: 1px;
-]
+}
 
 
-h3 {  font-family: helvetica;
+h3 {  
+
+      font-family: helvetica;
       text-align: left;
       padding: 15px;
       font-weight: bold;
@@ -41,6 +21,8 @@ h3 {  font-family: helvetica;
       margin-top: 0px;
       margin-bottom: 1px;
 
+}
+
 .hr {
 
      height: 2px;
@@ -48,6 +30,13 @@ h3 {  font-family: helvetica;
      border: none;
 
 }
+
+.img {
+
+	display:block;
+
+}
+
 
 /* Kim's Picture---- working to resize and scale*/
 
@@ -59,7 +48,7 @@ h3 {  font-family: helvetica;
     left: 50%;
     right: 50%;
     margin: auto;
-
+}
 
 #display_image .img {
 
@@ -82,20 +71,14 @@ h3 {  font-family: helvetica;
       min-height: 300px;
       width: auto;
      
-]
+}
 
 .image img {
 
       width: 100%;
 
-]
+}
 
-.thumb {
-width:250px;
-height:300px;
-overflow:hidden;
-
-]
 /*Contact Form*/
 
 
@@ -116,6 +99,7 @@ label {
 }
 
 .help-block.with-errors {
+    
     color: #ff5050;
     margin-top: 5px
 }
@@ -141,7 +125,7 @@ body {
 
     display: flex;
     flex-direction: column;
-]
+}
 
 .content {
 
@@ -188,7 +172,7 @@ body {
 	.col-10 {width: 83.33%;}
 	.col-11 {width: 91.66%;}
 	.col-12 {width: 100%;}
-]
+}
 
 media screen and (max-width: 600px or less) {
 
@@ -198,3 +182,4 @@ media screen and (max-width: 600px or less) {
   }
   
 }
+
